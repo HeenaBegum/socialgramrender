@@ -17,15 +17,15 @@
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
   "scripts": {
-    
-   
-    "dev":"nodemon index.js", 
-    "build":"npm i"
+    "dev": "nodemon index.js",
+    "build": "npm i"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC", 
+  "license": "ISC",
   "description": ""
 }
